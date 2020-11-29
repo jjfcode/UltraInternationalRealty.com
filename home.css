@@ -56,3 +56,9 @@ ul li a {
     margin-right: -15px;
     margin-left: -15px;
 }
+
+.copyright {
+    font-display: flex;
+    font-size: 10px;
+    text-align: center;
+}
