@@ -96,17 +96,19 @@
     <!-- Contac Us Form Start -->
     <div class="container">
         <h1 class="main mb-40">Contact Us</h1>
-        <form method="POST">
+        <script type="text/javascript">var submitted=false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted) {window.location='index.html';}"></iframe>
+        <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSfYS4pqgAHFEx4aonsZ4KEohpyGGmxfrXxVWVMGXlkI1HkpbA/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true"s">
             <div class="container">
                 <div class="form-group">
                     <div class="form-row">
                         <div class="col">
                             <label for="First name">First Name</label>
-                            <input type="text" class="form-control" placeholder="">
+                            <input type="text" name="entry.966479780" class="form-control" id="firstname" placeholder="First Name" required>
                         </div>
                         <div class="col">
                             <label for="Last name">Last Name</label>
-                            <input type="text" class="form-control" placeholder="">
+                            <input type="text" name="entry.290933424" class="form-control" id="lastname" placeholder="Last Name" required>
                         </div>
                     </div>
                 </div>
@@ -114,11 +116,11 @@
                     <div class="form-row">
                         <div class="col">
                             <label for="Phone">Phone</label>
-                            <input type="phone" class="form-control" placeholder="">
+                            <input type="phone" name="entry.571438724" class="form-control" id="phone" placeholder="Phone" required>
                         </div>
                         <div class="col">
                                 <label for="inputEmail4">Email</label>
-                                <input type="email" class="form-control" placeholder="">
+                                <input type="email" name="entry.1693169725" class="form-control" id="email" placeholder="Email" required>
                             </div>
                         </div>
                     </div>
@@ -126,17 +128,17 @@
                 <div class="form-group">
                     <div class="col">
                         <label for="exampleFormControlTextarea1">Comments</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" name="entry.1181255236" id="exampleFormControlTextarea1" rows="3" placeholder="Let Us Know Type Of Business" required></textarea>
                     </div>
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                     <div class="col">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                            <label class="form-check-label" for="inlineCheckbox1">Personal</label>
+                            <input class="form-check-input" name="entry.874815248_sentinel" type="checkbox" id="Personal" value="Personal">
+                            <label class="form-check-label" for="personal">Personal</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <input class="form-check-input" name="entry.2108654962_sentinel" type="checkbox" id="inlineCheckbox2" value="option2">
                             <label class="form-check-label" for="inlineCheckbox2">business</label>
                         </div>
                     </div>
@@ -144,25 +146,25 @@
                 <div class="form-group mb-40">
                     <div class="col">
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" id="Rent a Porperty" value="option1" checked>
+                            <input class="form-check-input"  type="radio" id="Rent a Porperty" name="entry.176020671_sentinel" value="option1" checked>
                             <label class="form-check-label" for="gridRadios1">
                                 Rent a Property
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <input class="form-check-input" name="entry.1795695981_sentinel" type="radio" name="gridRadios" id="gridRadios2" value="option2">
                             <label class="form-check-label" for="gridRadios2">
                                 Buy a Property
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <input class="form-check-input" name="entry.189333198_sentinel" type="radio" name="gridRadios" id="gridRadios2" value="option2">
                             <label class="form-check-label" for="gridRadios2">
                                 Sell Your Property
                             </label>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="form-group mb-40">
                     <div class="col">
                         <button type="submit" class="btn btn-primary btn-block">Submit</button>
