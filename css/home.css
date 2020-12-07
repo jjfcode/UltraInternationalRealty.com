@@ -126,3 +126,24 @@ ul li a {
     font-size: 10px;
     text-align: center;
 }
+
+.content-wrapper{
+    width: 80%;
+    margin: 4% 10% 5% 10%;
+}
+
+.content-wrapper img{
+    width: 100%;
+}
+
+.text-wrapper{
+    width: 100%;
+    position: relative;
+    margin-top: -40%;
+}
+
+.text-wrapper h1{
+    text-align: center;
+    color: black;
+    font-size: 10vw;
+}
