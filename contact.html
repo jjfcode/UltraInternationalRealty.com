@@ -218,8 +218,18 @@
             var lastname = document.forms["myForm"]["lastname"].value;
             var phone = document.forms["myForm"]["phone"].value;
             var email = document.forms["myForm"]["email"].value;
-
-            if (firstname == '' || lastname == '' || phone == '' || email == '') {
+            if (firstname != '' && lastname != '' && phone != '' && email != '') {
+                Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Form Send Thank You!!!',
+                timer:3000,
+                showConfirmButton: false, 
+                });
+        
+                setTimeout( function() {document.location.href='index.html' } ,1500 );
+                
+            }else{
                 Swal.fire({
                 title: 'Field Empty!!!',
                 text: 'Please check the missing field!!',
@@ -227,16 +237,8 @@
                 button: 'OK',
                 });
                 return false;
-            }else{
-                Swal.fire({
-                position: 'top-end',
-                icon: 'success',
-                title: 'Form Send Thank You!!!',
-                showConfirmButton: false,
-                timer: 3000,
-                });
-                return submitted=true;
             };
+            
         }
     </script>
 
