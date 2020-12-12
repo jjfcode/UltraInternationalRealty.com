@@ -1,0 +1,157 @@
+/* Gallery Container */
+#featured-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "gallery-p gallery-p gallery-p gallery-p"
+    "gallery-h2 gallery-h2 gallery-h2 gallery-h2"
+    "gallery-h3 gallery-h3 gallery-h3 gallery-h3"
+    "img1 img2 img3 img4"
+    "img5 img6 img7 img8"
+    "img9 img10 img11 img12"
+    "img13 img14 img15 img16"
+    "img17 img18 img19 img20";
+}
+
+#featured-gallery .gallery-img {
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+/* Images */
+#featured-gallery p {
+    grid-area: gallery-p;
+}
+
+#featured-gallery h2 {
+    grid-area: gallery-h2;
+}
+
+#featured-gallery h3 {
+    grid-area: gallery-h3;
+}
+
+#featured-gallery .img1 {
+    grid-area: img1;
+    background-image: url("../images/lefrontenac/thumbs/img1.jpg");
+}
+
+#featured-gallery .img2 {
+    grid-area: img2;
+    background-image: url("../images/lefrontenac/thumbs/img2.jpg");
+}
+
+#featured-gallery .img3 {
+    grid-area: img3;
+    background-image: url("../images/lefrontenac/thumbs/img3.jpg");
+}
+
+#featured-gallery .img4 {
+    grid-area: img4;
+    background-image: url("../images/lefrontenac/thumbs/img4.jpg");
+}
+
+#featured-gallery .img5 {
+    grid-area: img5;
+    background-image: url("../images/lefrontenac/thumbs/img5.jpg");
+}
+
+#featured-gallery .img6 {
+    grid-area: img6;
+    background-image: url("../images/lefrontenac/thumbs/img6.jpg");
+}
+
+#featured-gallery .img7 {
+    grid-area: img7;
+    background-image: url("../images/lefrontenac/thumbs/img7.jpg");
+}
+
+#featured-gallery .img8 {
+    grid-area: img8;
+    background-image: url("../images/lefrontenac/thumbs/img8.jpg");
+}
+
+#featured-gallery .img9 {
+    grid-area: img9;
+    background-image: url("../images/lefrontenac/thumbs/img9.jpg");
+}
+
+#featured-gallery .img10 {
+    grid-area: img10;
+    background-image: url("../images/lefrontenac/thumbs/img10.jpg");
+}
+
+#featured-gallery .img11 {
+    grid-area: img11;
+    background-image: url("../images/lefrontenac/thumbs/img11.jpg");
+}
+
+#featured-gallery .img12 {
+    grid-area: img12;
+    background-image: url("../images/lefrontenac/thumbs/img12.jpg");
+}
+
+#featured-gallery .img13 {
+    grid-area: img13;
+    background-image: url("../images/lefrontenac/thumbs/img13.jpg");
+}
+
+#featured-gallery .img14 {
+    grid-area: img14;
+    background-image: url("../images/lefrontenac/thumbs/img14.jpg");
+}
+
+#featured-gallery .img15 {
+    grid-area: img15;
+    background-image: url("../images/lefrontenac/thumbs/img15.jpg");
+}
+
+#featured-gallery .img16 {
+    grid-area: img16;
+    background-image: url("../images/lefrontenac/thumbs/img16.jpg");
+}
+
+#featured-gallery .img17 {
+    grid-area: img17;
+    background-image: url("../images/lefrontenac/thumbs/img17.jpg");
+}
+
+#featured-gallery .img18 {
+    grid-area: img18;
+    background-image: url("../images/lefrontenac/thumbs/img18.jpg");
+}
+
+#featured-gallery .img19 {
+    grid-area: img19;
+    background-image: url("../images/lefrontenac/thumbs/img19.jpg");
+}
+
+/* Gallery image titles */
+.gallery-img div {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-img a {
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 18px;
+   color: #ffffff;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+.gallery-img div:hover {
+    opacity: 0.8;
+    transition: all ease-in-out 100ms;
+}

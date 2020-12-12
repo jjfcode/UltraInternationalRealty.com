@@ -68,6 +68,10 @@
     box-sizing: border-box;
 }
 
+.wrapper-gallery {
+    margin: 0 20vw;
+}
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
