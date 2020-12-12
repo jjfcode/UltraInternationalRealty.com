@@ -85,7 +85,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="google-maps mb-100">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7178.459123304352!2d-80.33249495443107!3d25.89482295563788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bb24e9b38819%3A0x5bb4e5e9505ce3e!2s2300%20W%2084th%20St%20STE%20312%2C%20Hialeah%2C%20FL%2033016!5e0!3m2!1sen!2sus!4v1606962413075!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.169070691334!2d-80.33250778497626!3d25.896811983575688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bb2fa2c65b8d%3A0x623338ab6ea59b3f!2s2300%20W%2084th%20St%2C%20Hialeah%2C%20FL%2033016!5e0!3m2!1sen!2sus!4v1607717710998!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
               </div>
             </div>
@@ -203,7 +203,7 @@
     </footer>
     <!-- Footer End -->
 
-
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
@@ -212,35 +212,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <script>
-        function validateForm() {
-            var firstname = document.forms["myForm"]["firstname"].value;
-            var lastname = document.forms["myForm"]["lastname"].value;
-            var phone = document.forms["myForm"]["phone"].value;
-            var email = document.forms["myForm"]["email"].value;
-            if (firstname != '' && lastname != '' && phone != '' && email != '') {
-                Swal.fire({
-                position: 'top-end',
-                icon: 'success',
-                title: 'Form Send Thank You!!!',
-                timer:3000,
-                showConfirmButton: false, 
-                });
-        
-                setTimeout( function() {document.location.href='index.html' } ,1500 );
-                
-            }else{
-                Swal.fire({
-                title: 'Field Empty!!!',
-                text: 'Please check the missing field!!',
-                icon: 'warning',
-                button: 'OK',
-                });
-                return false;
-            };
-            
-        }
-    </script>
+    <script src="js/formapp.js"></script>
 
 </body>
 </html>
