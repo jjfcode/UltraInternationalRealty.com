@@ -3,31 +3,21 @@
     margin: 0;
 }
 
-.preheader {
-    background-color: #409d72;
-    text-shadow: 2px 2px 5px black;
-}
-
-ul {
-    padding: 10px;
-    /* margin: -15px; */
-}
-
 ul li {
-   display: inline-block; 
-   padding: 0px 16px;
-   font-size: 100%;
+    display: inline-block; 
+    padding: 0px 16px;
+    font-size: 100%;
+ }
+
+.copyright {
+    background-color: #409d72;
+    text-shadow: 2px 2px 3px black;
 }
 
-ul li a {
-    color: #fff;
-    cursor: pointer;
-}
-
-.top-menu {
-    float: right;
+.copyright h1 {
     font-family: 'Source Code Pro', monospace;
+    font-size: 80%;
+    text-align: center;
     color: #fff;
-    /* font-display: flex; */
-    text-shadow: 2px 2px 5px black;
+    padding-top: 4px;
 }
