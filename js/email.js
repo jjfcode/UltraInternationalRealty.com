@@ -53,7 +53,7 @@ function send(event) {
         SecureToken : "14b14874-42eb-4126-9715-253ac1a1daf0",
         To : 'msferlito@gmail.com',
         From : document.getElementById('inputEmail4').value,
-        Subject : 'Request a Quote',
+        Subject : 'Maintenace Request',
         Body : "<h3 style='display:inline;'>Name: </h3>" + document.getElementById('fullName').value +
         "<br><h3 style='display:inline;'>Email: </h3>" + document.getElementById('inputEmail4').value + 
         "<br><h3 style='display:inline;'>Phone: </h3>" + document.getElementById('phone').value +
