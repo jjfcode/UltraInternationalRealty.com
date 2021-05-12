@@ -42,7 +42,7 @@
                                     <a class="nav-link" href="about.html">About Us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact Us</a>
+                                    <a class="nav-link" href="#">Contact Us</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="maintenace.html">Maintenance Request</a>
@@ -67,67 +67,37 @@
         </div>
         <!-- Social Media End -->
 
-        <!-- Form Start -->
-        <div class="container p-4">
-            <form class="row g-3" action="#" method="POST" onsubmit="return check()" role="form">
-                <div class="col-md-4">
-                    <label for="inputname" class="form-label">Tenant Full Name (Required)</label>
-                    <input type="text" class="form-control" id="fullName" aria-label="First name">
-                </div>
-                <div class="col-md-4">
-                    <label for="inputEmail4" class="form-label">Email (Required)</label>
-                    <input type="email" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-md-4">
-                    <label for="phone" class="form-label">Phone (Required)</label>
-                    <input type="text" class="form-control" id="phone" aria-label="phone">
-                </div>
-                <div class="col-12">
-                    <label for="inputAddress" class="form-label">Address (Required)</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                </div>
-                <div class="col-md-6">
-                    <label for="inputCity" class="form-label">City (Required)</label>
-                    <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="col-md-4">
-                    <label for="inputState" class="form-label">State (Required)</label>
-                    <select id="inputState" class="form-select">
-                        <option selected>Choose...</option>
-                        <option>FL</option>
-                    </select>
-                </div>
-                <div class="col-md-2">
-                    <label for="inputZip" class="form-label">Zip (Required)</label>
-                    <input type="text" class="form-control" id="inputZip">
-                </div>
-                <div class="col-8">
-                    <label for="inputTop" class="form-label">Type Of Problem (Required)</label>
-                    <select class="form-select" id="inputTop" aria-label="Default select example">
-                        <option selected>Open this select menu</option>
-                        <option value="Electric">Electric</option>
-                        <option value="Plumbing">Plumbing</option>
-                        <option value="Kitchen Appliances">Kitchen Appliances</option>
-                        <option value="Laundry Appliances">Laundry Appliances</option>
-                        <option value="A/C Unit">A/C Unit</option>
-                        <option value="Water Heater">Water Heater</option>
-                        <option value="Other">Other</option>
-                    </select>
-                </div>
-                <div class="col-md-4">
-                    <label for="inputDate" class="form-label">Problem Start (Required)</label>
-                    <input type="date" class="form-control" id="inputDate">
-                </div>
-                <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Explain: (Required)</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="col-12">
-                    <button type="submit" onclick="check()" class="btn btn-primary">Submit</button>
-                </div>
-            </form>
+        <!-- Contact Us Form Start -->
+
+        <div class="container p-5">
+            <h1 class="main mb-40 text-center">Contact Us</h1>
+            <div class="container">
+                <form class="row g-3" action="#" method="POST" onsubmit="return check()" role="form">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <input type="text" id="firstName" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" id="lastName" class="form-control" placeholder="Last name" aria-label="Last name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="phone" id="phone" class="form-control" placeholder="Phone" aria-label="Phone">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" id="email" class="form-control" placeholder="Email" aria-label="Email">
+                        </div>
+                        <div class="col-md-12">
+                            <textarea class="form-control" placeholder="Let Us Know Type Of Business" id="floatingTextarea2" style="height: 100px"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" onclick="check()" class="btn btn-primary">Submit Form</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
-        <!-- Form End -->
+
+        <!-- Contact Us Form End -->
 
         <!-- Footer Start -->
         <div class="container-fluid copyright fixed-bottom">
@@ -146,7 +116,7 @@
     <!-- FontAwesome Link End -->
     <!-- Email Script Start -->
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="js/email.js"></script>
+    <script src="js/email2.js"></script>
     <!-- Email Script End -->
 </body>
 </html>
