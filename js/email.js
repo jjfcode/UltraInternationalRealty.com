@@ -51,7 +51,7 @@ function send(event) {
         name:document.getElementById('fullName').value,
         // SecureToken : "14b14874-42eb-4126-9715-253ac1a1daf0",
         SecureToken : "14b14874-42eb-4126-9715-253ac1a1daf0",
-        To : 'jjfcode@gmail.com',
+        To : 'msferlito@gmail.com',
         From : document.getElementById('inputEmail4').value,
         Subject : 'Request a Quote',
         Body : "<h3 style='display:inline;'>Name: </h3>" + document.getElementById('fullName').value +
