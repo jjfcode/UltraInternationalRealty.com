@@ -96,7 +96,7 @@ nav {
     font-size: 80%;
     text-align: center;
     color: #fff;
-    padding-top: 4px;
+    padding-top: 5px;
 }
 
 /* About Start */
@@ -112,3 +112,29 @@ nav {
 }
 
 /* About End */
+
+/* Contact Us Start */
+
+.contact {
+    background: #8ab9a3;
+}
+
+.contact-in {
+    background: #fff;
+    border-radius: 40px;
+}
+
+/* Contact Us End */
+
+/* Maintenance start */
+
+.maintenance {
+    background: #8ab9a3;
+}
+
+.maintenance-in {
+    background: #fff;
+    border-radius: 40px;
+}
+
+/* maintenance End */
