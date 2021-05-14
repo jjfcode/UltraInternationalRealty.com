@@ -115,6 +115,30 @@ nav {
 
 /* Contact Us Start */
 
+.main_title {
+    font-family: 'Righteous', cursive;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+}
+
+.maps {
+    background: #fff;
+    border-radius: 40px;
+}
+
 .contact {
     background: #8ab9a3;
 }
@@ -138,3 +162,25 @@ nav {
 }
 
 /* maintenance End */
+
+/* Phone Fix Start */
+
+@media (max-width: 775px) {
+
+    .address {
+        display: flex;
+        justify-content: left;
+    }
+    
+    .phone {
+        display: flex;
+        justify-content: left;
+    }
+    
+    .email {
+        display: flex;
+        justify-content: left;
+    }
+}
+
+/* Phone Fix End */
