@@ -122,16 +122,28 @@ nav {
 .address {
     display: flex;
     justify-content: center;
+    border: solid black 2px;
+    border-radius: 10px;
+    background: #e2e2e2;
+    padding: 15px;
 }
 
 .phone {
     display: flex;
     justify-content: center;
+    border: solid black 2px;
+    border-radius: 10px;
+    background: #e2e2e2;
+    padding: 15px;
 }
 
 .email {
     display: flex;
     justify-content: center;
+    border: solid black 2px;
+    border-radius: 10px;
+    background: #e2e2e2;
+    padding: 15px;
 }
 
 .maps {
