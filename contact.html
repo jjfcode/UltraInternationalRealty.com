@@ -15,6 +15,7 @@
     <!-- Bootstrap V5 End -->
 </head>
 <body class="contact">
+    <header>
         <!-- NavBar Start -->
         <div class="container-fluid sticky-top p-0">
             <div class="row col justify-content-md-center">
@@ -42,7 +43,7 @@
                                     <a class="nav-link" href="about.html">About Us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact Us</a>
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="maintenace.html">Maintenance Request</a>
@@ -54,7 +55,9 @@
             </div>
         </div>
         <!-- NavBar End -->
+    </header>
 
+    <aside>
         <!-- Social Media Start -->
         <div class="container-fluid p-0">
             <nav class="socialmedia">
@@ -66,82 +69,84 @@
             </nav>
         </div>
         <!-- Social Media End -->
+    </aside>
 
-        <!-- Contact Title Start -->
-
-        <div class="container-fluid pt-4 main_title">
-            <div class="container">
-                <h1 class="text-center">Contact Us</h1>
-                <div class="row p-4">
-                    <div class="col-md-4 address">
-                        <h5 class="textcenter"><strong>Address:</strong><br>2300 W 84th St, Hialeah, FL 33016</h5>
-                    </div>
-                    <div class="col-md-4 phone">
-                        <h5 class="textcenter"><strong>Phone:</strong><br>(305) 986-1182</h5>
-                    </div>
-                    <div class="col-md-4 email">
-                        <h5 class="textcenter"><strong>Email:</strong><br>msferlito@gmail.com</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-         <!-- Contact Title End -->
-
-        <!-- Google Maps Start -->
-        <div class="container-fluid pt-1 px-4">
-            <div class="container p-1 maps">
-                <div class="container p-3">
-                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.1689239241473!2d-80.33250778460116!3d25.896816809314426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bb2fa2c65b8d%3A0x623338ab6ea59b3f!2s2300%20W%2084th%20St%2C%20Hialeah%2C%20FL%2033016!5e0!3m2!1sen!2sus!4v1621013826238!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
-        </div>
-        <!-- Google Maps End -->
-
-        <!-- Contact Us Form Start -->
-        <div class="container-fluid p-4">
-            <div class="container p-1 contact-in">
-                <div class="container p-3">
-                    <h1 class="main mb-40 text-center">Request Information</h1>
-                    <div class="container">
-                        <form class="row g-3" action="#" method="POST" onsubmit="return check()" role="form">
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <input type="text" id="firstName" class="form-control" placeholder="First name" aria-label="First name">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" id="lastName" class="form-control" placeholder="Last name" aria-label="Last name">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="phone" id="phone" class="form-control" placeholder="Phone" aria-label="Phone">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="email" id="email" class="form-control" placeholder="Email" aria-label="Email">
-                                </div>
-                                <div class="col-md-12">
-                                    <textarea class="form-control" placeholder="Let Us Know Type Of Business" id="floatingTextarea2" style="height: 100px"></textarea>
-                                </div>
-                                <div class="col-md-12">
-                                    <button type="submit" onclick="check()" class="btn btn-primary">Submit Form</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Contact Us Form End -->
-
-        <!-- Footer Start -->
-        <div class="container-fluid pt-4">
-            <div class="container-fluid copyright fixed-bottom">
+    <main>
+        <section>
+            <!-- Contact Title Start -->
+            <div class="container-fluid pt-4 main_title">
                 <div class="container">
-                    <h1>Copyright © 2021 U.I.R. All rights reserved.</h1>
+                    <h1 class="text-center">Contact Us</h1>
+                    <div class="row p-4">
+                        <div class="col-md-4 address">
+                            <h5 class="textcenter"><strong>Address:</strong><br>2300 W 84th St, Hialeah, FL 33016</h5>
+                        </div>
+                        <div class="col-md-4 phone">
+                            <h5 class="textcenter"><strong>Phone:</strong><br>(305) 986-1182</h5>
+                        </div>
+                        <div class="col-md-4 email">
+                            <h5 class="textcenter"><strong>Email:</strong><br>msferlito@gmail.com</h5>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <!-- Contact Title End -->
+
+            <!-- Google Maps Start -->
+            <div class="container-fluid pt-1 px-4">
+                <div class="container p-1 maps">
+                    <div class="container p-3">
+                        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.1689239241473!2d-80.33250778460116!3d25.896816809314426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bb2fa2c65b8d%3A0x623338ab6ea59b3f!2s2300%20W%2084th%20St%2C%20Hialeah%2C%20FL%2033016!5e0!3m2!1sen!2sus!4v1621013826238!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Google Maps End -->
+
+            <!-- Contact Us Form Start -->
+            <div class="container-fluid p-4">
+                <div class="container p-1 contact-in">
+                    <div class="container p-3">
+                        <h1 class="main mb-40 text-center">Request Information</h1>
+                        <div class="container">
+                            <form class="row g-3" action="#" method="POST" onsubmit="return check()" role="form">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <input type="text" id="firstName" class="form-control" placeholder="First name" aria-label="First name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="text" id="lastName" class="form-control" placeholder="Last name" aria-label="Last name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="phone" id="phone" class="form-control" placeholder="Phone" aria-label="Phone">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" id="email" class="form-control" placeholder="Email" aria-label="Email">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <textarea class="form-control" placeholder="Let Us Know Type Of Business" id="floatingTextarea2" style="height: 100px"></textarea>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" onclick="check()" class="btn btn-primary">Submit Form</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Us Form End -->
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer Start -->
+        <div class="container-fluid copyright fixed-bottom">
+            <div class="container">
+                <h1>&copy;2021 U.I.R. All rights reserved.</h1>
             </div>
         </div>
         <!-- Footer End -->
+    </footer>
     
     <!-- BootStrap V5 Script Start -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
