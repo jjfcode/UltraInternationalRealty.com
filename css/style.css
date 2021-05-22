@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font: 300 100%/1.5rem 'Work Sans', sans-serif;
+}
+
 /* ul li {
     margin: 0 25px;
 } */
@@ -102,13 +106,16 @@ nav {
 /* About Start */
 
 .about h1 {
-    font-family: 'Righteous', cursive;
-    font-size: 280%;
+    font: 700 280%/1.5rem 'Work Sans', sans-serif;
+    text-shadow: 1px 2px 3px rgba(0,10,30,.5);
 }
 
 .about p {
-    font-family: 'Righteous', cursive;
-    font-size: 100%;
+    font: 300 100%/1.5rem 'Work Sans', sans-serif;
+}
+
+.services {
+    padding-top: 50px;
 }
 
 /* About End */
@@ -165,13 +172,21 @@ nav {
 /* Maintenance start */
 
 .maintenance {
-    background: #8ab9a3;
+    background-image: linear-gradient(rgb(138, 231, 180), #409d72);
 }
 
 .maintenance-in {
     background: #fff;
     border-radius: 40px;
 }
+
+.btn-submit {
+    color: white;
+    padding: 0 1em;
+    font-size: 1em;
+    background-color: #7bcbc4;
+    border-radius: .2em;
+  }
 
 /* maintenance End */
 
@@ -192,6 +207,9 @@ nav {
     .email {
         display: flex;
         justify-content: left;
+    }
+    .maintenance {
+        padding-bottom: 30px;
     }
 }
 
